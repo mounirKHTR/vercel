@@ -10,7 +10,7 @@
     "build": {
       "dependsOn": ["^build"],
       "outputMode": "new-only",
-      "outputs": ["dist/**"]
+      "outputs": ["public/**"]
     },
     "vitest-unit": {
       "dependsOn": ["build"],
